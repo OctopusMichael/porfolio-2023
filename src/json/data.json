@@ -1,0 +1,216 @@
+[
+  {
+    "id": 0,
+    "name": "Dictionary app",
+    "img": "/assets/projects/dictionary.png",
+    "site": "https://m-dictionary-web-2dmfdnkls-octopusmichael.vercel.app",
+    "code": "https://github.com/OctopusMichael/m-dictionary-web-app"
+  },
+  {
+    "id": 1,
+    "name": "Entertainment web app",
+    "img": "/assets/projects/entretenimiento.png",
+    "site": "https://m-entertainment-web-app-suww-5mn4cr3h7-octopusmichael.vercel.app",
+    "code": "https://github.com/OctopusMichael/m-entertainment-web-app"
+  },
+  {
+    "id": 2,
+    "name": "Todo app",
+    "img": "/assets/projects/todo-list.png",
+    "site": "https://octopusmichael.github.io/todo-list/",
+    "code": "https://github.com/OctopusMichael/todo-list"
+  },
+  {
+    "id": 3,
+    "name": "E-commerce product page ",
+    "img": "/assets/projects/ecommerce.png",
+    "site": "https://octopusmichael.github.io/e-commerce/",
+    "code": "https://github.com/OctopusMichael/e-commerce"
+  },
+  {
+    "id": 4,
+    "name": "Advice generator app",
+    "img": "/assets/projects/advice.png",
+    "site": "https://octopusmichael.github.io/advice-generator/",
+    "code": "https://github.com/OctopusMichael/advice-generator"
+  },
+  {
+    "id": 5,
+    "name": "Blogr landing page",
+    "img": "/assets/projects/blogr.png",
+    "site": "https://octopusmichael.github.io/blog-landing-page/",
+    "code": "https://github.com/OctopusMichael/blog-landing-page"
+  },
+  {
+    "id": 6,
+    "name": "Calculator app",
+    "img": "/assets/projects/calculator.png",
+    "site": "https://octopusmichael.github.io/calculator-app/",
+    "code": "https://github.com/OctopusMichael/calculator-app"
+  },
+  {
+    "id": 7,
+    "name": "Interactive card details form",
+    "img": "/assets/projects/card-form.png",
+    "site": "https://octopusmichael.github.io/interactive-card/",
+    "code": "https://github.com/OctopusMichael/interactive-card"
+  },
+  {
+    "id": 8,
+    "name": "Sunnyside agency landing page",
+    "img": "/assets/projects/creative-landingpage.png",
+    "site": "https://octopusmichael.github.io/sunnyside-agency/",
+    "code": "https://github.com/OctopusMichael/sunnyside-agency"
+  },
+  {
+    "id": 9,
+    "name": "Dictionary app",
+    "img": "/assets/projects/dictionary.png",
+    "site": "",
+    "code": ""
+  },
+  {
+    "id": 10,
+    "name": "Loopstudios landing page",
+    "img": "/assets/projects/experiences-landingpages.png",
+    "site": "https://octopusmichael.github.io/loopstudios-landing/",
+    "code": "https://github.com/OctopusMichael/loopstudios-landing"
+  },
+  {
+    "id": 11,
+    "name": "Fylo dark theme landing page",
+    "img": "/assets/projects/fylo-landing-black.png",
+    "site": "https://octopusmichael.github.io/fylo-dark-theme-landing-page/",
+    "code": "https://github.com/OctopusMichael/fylo-dark-theme-landing-page"
+  },
+  {
+    "id": 12,
+    "name": "Fylo Landing page",
+    "img": "/assets/projects/fylo-landing.png",
+    "site": "https://octopusmichael.github.io/fylo-layout-master/",
+    "code": "https://github.com/OctopusMichael/fylo-layout-master"
+  },
+  {
+    "id": 13,
+    "name": "Huddle landing page with a single introductory section",
+    "img": "/assets/projects/hundle-purple.png",
+    "site": "https://octopusmichael.github.io/huddle-landing-page/",
+    "code": "https://github.com/OctopusMichael/huddle-landing-page"
+  },
+  {
+    "id": 14,
+    "name": "Huddle landing page with alternating feature blocks",
+    "img": "/assets/projects/huddle.png",
+    "site": "https://octopusmichael.github.io/huddle-landing/",
+    "code": "https://github.com/OctopusMichael/huddle-landing"
+  },
+  {
+    "id": 15,
+    "name": "Intro section with dropdown navigation",
+    "img": "/assets/projects/make-remote-work.png",
+    "site": "https://octopusmichael.github.io/Intro-section-with-dropdown/",
+    "code": "https://github.com/OctopusMichael/Intro-section-with-dropdown"
+  },
+
+  {
+    "id": 16,
+    "name": "Notifications page",
+    "img": "/assets/projects/notifications.png",
+    "site": "https://octopusmichael.github.io/notifications-page/",
+    "code": "https://github.com/OctopusMichael/notifications-page"
+  },
+
+  {
+    "id": 17,
+    "name": "Ping single column coming soon page",
+    "img": "/assets/projects/ping.png",
+    "site": "https://octopusmichael.github.io/ping-coming-soon-page-master/",
+    "code": "https://github.com/OctopusMichael/ping-coming-soon-page-master"
+  },
+
+  {
+    "id": 18,
+    "name": "Interactive pricing component",
+    "img": "/assets/projects/pricing-tracking.png",
+    "site": "https://octopusmichael.github.io/interactive-pricing-component/",
+    "code": "https://github.com/OctopusMichael/interactive-pricing-component"
+  },
+
+  {
+    "id": 19,
+    "name": "Pricing component with toggle",
+    "img": "/assets/projects/pricing.png",
+    "site": "https://octopusmichael.github.io/pricing-component/",
+    "code": "https://github.com/OctopusMichael/pricing-component"
+  },
+  {
+    "id":20,
+    "name": "Project tracking intro component",
+    "img": "/assets/projects/singlepage.png",
+    "site": "https://octopusmichael.github.io/project-tracking/",
+    "code": "https://github.com/OctopusMichael/project-tracking"
+  },
+  {
+    "id":21,
+    "name": "Coding bootcamp testimonials slider",
+    "img": "/assets/projects/testimonial.png",
+    "site": "https://octopusmichael.github.io/testimonials-slider/",
+    "code": "https://github.com/OctopusMichael/testimonials-slider"
+  },
+  {
+    "id":22,
+    "name": "Time tracking dashboard",
+    "img": "/assets/projects/timing-app.png",
+    "site": "https://octopusmichael.github.io/time-tracking-dashboard/",
+    "code": "https://github.com/OctopusMichael/time-tracking-dashboard"
+  },
+  {
+    "id":23,
+    "name": "URL shortening API landing page",
+    "img": "/assets/projects/traker.png",
+    "site": "https://octopusmichael.github.io/url-shortening/",
+    "code": "https://github.com/OctopusMichael/url-shortening"
+  },
+  {
+    "id":24,
+    "name": "Clipboard landing page",
+    "img": "/assets/projects/traking-landing.png",
+    "site": "https://octopusmichael.github.io/clipboard-landing-page/",
+    "code": "https://github.com/OctopusMichael/clipboard-landing-page"
+  },
+  {
+    "id":25,
+    "name": "Expenses chart component",
+    "img": "/assets/projects/wallet-price.png",
+    "site": "https://octopusmichael.github.io/expenses-chart-component/",
+    "code": "https://github.com/OctopusMichael/expenses-chart-component"
+  },
+  {
+    "id":26,
+    "name": "News homepage",
+    "img": "/assets/projects/web3.png",
+    "site": "https://octopusmichael.github.io/news-homepage-main/",
+    "code": "https://github.com/OctopusMichael/news-homepage-main"
+  },
+  {
+    "id":27,
+    "name": "Newsletter sign-up form with success message",
+    "img": "/assets/projects/newsletter.png",
+    "site": "https://octopusmichael.github.io/newsletter-sign-up/",
+    "code": "https://github.com/OctopusMichael/newsletter-sign-up"
+  },
+  {
+    "id":28,
+    "name": "Social media dashboard with theme switcher",
+    "img": "/assets/projects/social.png",
+    "site": "https://octopusmichael.github.io/social-media-dashboard/",
+    "code": "https://github.com/OctopusMichael/social-media-dashboard"
+  },
+  {
+    "id":29,
+    "name": "Base Apparel coming soon page",
+    "img": "/assets/projects/baseapparel.png",
+    "site": "https://octopusmichael.github.io/demo-challenge-15/",
+    "code": "https://github.com/OctopusMichael/demo-challenge-15"
+  }
+]

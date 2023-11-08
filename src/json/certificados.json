@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "Programacion desde 0.",
+    "institute": "Egg Cooperation",
+    "date": "Issued May 2023",
+    "img": "/assets/cursos/curso-uno.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "SCRUM FOUNDATION PROFESSIONAL CERTIFICATE SFPC",
+    "institute": "CertiProf International",
+    "date": "Issued May 2023",
+    "img": "/assets/cursos/curso-cuatro.png"
+  },
+  {
+    "id": 2,
+    "name": "Master en Lógica de Programación : Pruebas Técnicas de código.",
+    "institute": "Udemy",
+    "date": "Issued Dec 2022",
+    "img": "/assets/cursos/curso-dos.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Desarrollador Front-end",
+    "institute": "Aprende.org",
+    "date": "Issued May 2023",
+    "img": "/assets/cursos/curso-tres.png"
+  }
+]

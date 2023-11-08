@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Html",
+    "img": "/assets/icons/html.svg"
+  },
+  {
+    "id": 1,
+    "name": "Css",
+    "img": "/assets/icons/css.svg"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "img": "/assets/icons/js.svg"
+  },
+  {
+    "id": 3,
+    "name": "typeScript",
+    "img": "/assets/icons/ts.svg"
+  },
+  {
+    "id": 4,
+    "name": "React Js",
+    "img": "/assets/icons/react.svg"
+  },
+  {
+    "id": 5,
+    "name": "Next Js",
+    "img": "/assets/icons/next.svg"
+  },
+  {
+    "id": 6,
+    "name": "Tailwind ",
+    "img": "/assets/icons/tailwind.svg"
+  },
+  {
+    "id": 7,
+    "name": "Bootstrap",
+    "img": "/assets/icons/bootstrap.svg"
+  },
+  {
+    "id": 8,
+    "name": "Framer Motion",
+    "img": "/assets/icons/framer.svg"
+  },
+  {
+    "id": 9,
+    "name": "Vite",
+    "img": "/assets/icons/vite.svg"
+  },
+  {
+    "id": 10,
+    "name": "Git",
+    "img": "/assets/icons/git.svg"
+  },
+  {
+    "id": 11,
+    "name": "GitHub",
+    "img": "/assets/icons/github.svg"
+  }
+]
