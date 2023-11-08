@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import data from "../json/data.json";
 import { ChevronLeft, ChevronRight, ExternalLink, Github } from "lucide-react";
 
-const Projects = ({proyectos}) => {
+const Projects = ({ proyectos }) => {
   const elementPerPage = 8;
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -27,14 +27,17 @@ const Projects = ({proyectos}) => {
   const totalPages = Math.ceil(data.length / elementPerPage);
   return (
     <section>
-      <div ref={proyectos} className="container  flex flex-col justify-center items-center p-10 ">
+      <div
+        ref={proyectos}
+        className="container  flex flex-col justify-center items-center p-10 "
+      >
         <h1 className="text-[26px] font-bold">Proyectos</h1>
 
         <div className=" h-auto md:h-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-[20px]  p-[20px]">
           {currentElements.map((element) => {
             return (
               <div
-                className=" p-6 h-[300px] flex flex-col gap-10  justify-center  items-center hover:bg-slate-800 cursor-pointer rounded-xl hover:scale-110 transition-all duration-200"
+                className=" my-[20px] p-6 h-[300px] flex flex-col   justify-between  items-center hover:bg-slate-800 cursor-pointer rounded-xl hover:scale-110 transition-all duration-200"
                 key={element.id}
               >
                 <div className="h-[50%]">
@@ -44,19 +47,18 @@ const Projects = ({proyectos}) => {
                     alt={element.name}
                   />
                 </div>
-                <div className="flex flex-col gap-5 h-[40%] ">
+                <div className="flex flex-col  h-[5%] ">
                   <h1 className=" font-bold text-slate-300 text-center hover:underline">
                     {element.name}
                   </h1>
-                
-                <div className="flex gap-5  justify-center ">
-                  <a href={element.code} target="_blank" rel='noreferrer' >
+                </div>
+                <div className="flex gap-5  justify-center  h-[5%] ">
+                  <a href={element.code} target="_blank" rel="noreferrer">
                     <Github className="text-slate-300 hover:text-blue-600" />
                   </a>
-                  <a href={element.site}  target="_blank" rel='noreferrer'>
+                  <a href={element.site} target="_blank" rel="noreferrer">
                     <ExternalLink className=" text-slate-300 hover:text-blue-600" />
                   </a>
-                </div>
                 </div>
               </div>
             );

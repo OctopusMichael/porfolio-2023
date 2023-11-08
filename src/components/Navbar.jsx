@@ -2,11 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 
 import { MenuIcon, X } from "lucide-react";
 
-const Navbar = ({scrollToTarget,sobre, tecnologia, proyectos, curso}) => {
+const Navbar = ({ scrollToTarget, sobre, tecnologia, proyectos, curso }) => {
   const [menu, setMenu] = useState(false);
-  
-
-
 
   const handleClick = () => {
     setMenu(!menu);
@@ -20,30 +17,28 @@ const Navbar = ({scrollToTarget,sobre, tecnologia, proyectos, curso}) => {
     }
   }, [menu]);
 
-
-
   const menuList = [
     {
       id: 0,
       title: "Sobre mi",
-      ref: sobre
+      ref: sobre,
     },
     {
       id: 1,
       title: "Tecnologias",
-      ref:  tecnologia
+      ref: tecnologia,
     },
     {
       id: 2,
       title: "Proyectos",
-      ref: proyectos
+      ref: proyectos,
     },
     {
       id: 3,
       title: "Cursos",
-     ref : curso
+      ref: curso,
     },
-  /*   {
+    /*   {
       id: 4,
       title: "Contacto",
     }, */
@@ -66,39 +61,46 @@ const Navbar = ({scrollToTarget,sobre, tecnologia, proyectos, curso}) => {
             <MenuIcon onClick={handleClick} />
           )}
         </div>
-        <div
-          className={` ${
-            menu
-              ? "absolute top-0 left-0 w-full h-full bg-black transition-all duration-75  "
-              : "absolute top-0 -left-[-100%] w-full h-full bg-black transition-all duration-75   "
-          }  flex flex-col  items-end container `}
-        >
-          <div className="flex justify-end items-center  h-[14vh]   ">
-            {menu ? (
-              <X onClick={handleClick} />
-            ) : (
-              <MenuIcon onClick={handleClick} />
-            )}
-          </div>
-          <ul className="flex flex-col gap-5 px-[50px]">
-            {menuList.map((element) => (
-              <li key={element.id}>
-                {" "}
-                <a  onClick={() => {scrollToTarget(element.ref); handleClick()} }  href="#" className="hover:text-blue-600">
+        {menu && (
+          <div className="absolute top-0 left-0 w-full h-full bg-black transition-all duration-75 flex flex-col  items-end container ">
+            <div className="flex justify-end items-center  h-[14vh]   ">
+              {menu ? (
+                <X onClick={handleClick} />
+              ) : (
+                <MenuIcon onClick={handleClick} />
+              )}
+            </div>
+            <ul className="flex flex-col gap-5 px-[50px]">
+              {menuList.map((element) => (
+                <li key={element.id}>
                   {" "}
-                  {element.title}{" "}
-                </a>{" "}
-              </li>
-            ))}
-          </ul>
-        </div>
+                  <a
+                    onClick={() => {
+                      scrollToTarget(element.ref);
+                      handleClick();
+                    }}
+                    href="#"
+                    className="hover:text-blue-600"
+                  >
+                    {" "}
+                    {element.title}{" "}
+                  </a>{" "}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         <div className="  hidden md:block">
           <ul className="flex gap-5">
             {menuList.map((element) => (
               <li key={element.id}>
                 {" "}
-                <a onClick={() => scrollToTarget(element.ref)} href="#" className="hover:text-blue-600">
+                <a
+                  onClick={() => scrollToTarget(element.ref)}
+                  href="#"
+                  className="hover:text-blue-600"
+                >
                   {" "}
                   {element.title}{" "}
                 </a>{" "}

@@ -3,7 +3,7 @@
 @tailwind base;
 
 * {
-  scrollbar-width: thin ;
+  scrollbar-width: thin;
   scrollbar-color: rgb(69, 227, 255) #161d2f;
 }
 
@@ -18,7 +18,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color:aqua;
+  background-color: aqua;
   border-radius: 14px;
   border: 2px solid rgb(0, 255, 242);
 }
@@ -41,7 +41,8 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #090b18;
-  overflow-x: hidden;
+  overflow-x: hidden ;
   scroll-behavior: smooth;
+  
 }
 
